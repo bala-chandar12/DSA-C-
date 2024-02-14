@@ -61,3 +61,17 @@ _________
 */
 //Your code should go here:
 
+
+#include<iostream>
+using namespace std;
+int addition(int a, int b) {
+	return a + b;
+}
+int main() {
+	int a, b;
+	cout << "enter 2 numbers";
+	cin >> a >> b;
+	int k = addition(a, b);
+	cout << k;
+	return 0;
+}
